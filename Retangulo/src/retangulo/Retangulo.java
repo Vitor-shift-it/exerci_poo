@@ -1,15 +1,15 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package retangulo;
 
 /**
  *
- * @author Geane
+ * @author Admin
  */
 public class Retangulo {
-      private double largura;
+    private double largura;
       private double altura;
       
       public Retangulo (double largura, double altura){
@@ -24,4 +24,14 @@ public class Retangulo {
     public double calcularPerimetro(){
         return 2 * (largura + altura);
     }
+
+    public void Info(){
+        
+        System.out.println("A area do retangulo e: " + calcularArea() + " centimetros");
+        
+        
+        System.out.println("O perimetro do retangulo e: " + calcularPerimetro() + " centimetros");
+        
+    }
+    
 }
